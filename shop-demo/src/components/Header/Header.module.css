@@ -1,0 +1,7 @@
+.navLink {
+  @apply text-gray-700 hover:text-blue-600 font-medium transition-colors;
+}
+
+.navLink:active {
+  @apply text-blue-700;
+}

@@ -1,0 +1,47 @@
+.card {
+  @apply rounded-lg border border-gray-200 overflow-hidden bg-white hover:shadow-lg transition-shadow duration-300;
+}
+
+.imageContainer {
+  @apply block relative w-full h-64 overflow-hidden bg-gray-100;
+}
+
+.image {
+  @apply w-full h-full object-cover hover:scale-105 transition-transform duration-300;
+}
+
+.content {
+  @apply p-4;
+}
+
+.title {
+  @apply block text-lg font-semibold text-gray-900 hover:text-blue-600 transition-colors line-clamp-2;
+}
+
+.category {
+  @apply text-sm text-gray-500 mt-2;
+}
+
+.rating {
+  @apply mt-2 flex items-center gap-1;
+}
+
+.stars {
+  @apply text-yellow-400 text-sm;
+}
+
+.reviewCount {
+  @apply text-gray-500 text-xs;
+}
+
+.price {
+  @apply mt-3 text-2xl font-bold text-gray-900;
+}
+
+.button {
+  @apply w-full mt-4 bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors font-medium;
+}
+
+.buttonDisabled {
+  @apply bg-gray-400 cursor-not-allowed hover:bg-gray-400;
+}
