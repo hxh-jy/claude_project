@@ -3,7 +3,11 @@
     "allow": [
       "Bash(ls:*)",
       "WebFetch",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(gh --version)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(gh auth:*)"
     ]
   }
 }
